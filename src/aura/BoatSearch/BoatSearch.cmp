@@ -1,0 +1,8 @@
+<aura:component description="BoatSearch" implements="flexipage:availableForAllPageTypes" access="global">
+    <lightning:card title="Find a Boat" class="marginBot">
+        <c:BoatSearchForm/>
+    </lightning:card>
+    <lightning:card title="Matching Boats">
+        <c:BoatSearchResults/>
+    </lightning:card>
+</aura:component>

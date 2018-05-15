@@ -1,6 +1,26 @@
-<!--
- - Created by BRITENET on 15.05.2018.
- -->
-
-<aura:component description="BoatSearchForm">
+<aura:component description="BoatSearchForm" controller="BoatSearchResults">
+    <aura:attribute name="searchedBoat" type="Boat__c"/>
+    <aura:attribute name="boatType" type="BoatType__c"/>
+    <aura:attribute name="boatTypes" type="List"/>
+    <aura:attribute name="createRecordEnabled" type="Boolean" default="false"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <lightning:layout horizontalAlign="center">
+        <lightning:layoutItem class="slds-m-right_small">
+            <lightning:select variant="label-hidden" label="" name="boattype" aura:id="searchform"
+                              value="{!v.boatType}">
+                <option value="">All Types</option>
+                <aura:iteration items="{!v.boatTypes}" var="item">
+                    <option value="{!item.Name}">{!item.Name}</option>
+                </aura:iteration>
+            </lightning:select>
+        </lightning:layoutItem>
+        <lightning:layoutItem class="slds-m-right_xx-small">
+            <lightning:button label="Search" variant="brand"/>
+        </lightning:layoutItem>
+        <aura:if isTrue="{!v.createRecordEnabled}">
+            <lightning:layoutItem>
+                <lightning:button label="New" variant="neutral" onclick="{!c.createRecord}"/>
+            </lightning:layoutItem>
+        </aura:if>
+    </lightning:layout>
 </aura:component>
