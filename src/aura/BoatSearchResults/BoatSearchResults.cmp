@@ -1,8 +1,8 @@
 <aura:component description="BoatSearchResults" controller="BoatSearchResults">
     <aura:attribute name="boats" type="Boat__c[]"/>
     <aura:attribute name="noFound" type="Boolean" default="true"/>
-    <aura:attribute name="boatTypeId" type="Object"/>
-    <aura:method name="search" access="public">
+    <aura:attribute name="boatTypeId" type="Id"/>
+    <aura:method name="search" access="public" action="{!c.doSearch}">
         <aura:attribute name="boatTypeId" type="Id"/>
     </aura:method>
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
