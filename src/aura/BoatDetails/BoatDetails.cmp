@@ -1,6 +1,19 @@
-<!--
- - Created by BRITENET on 15.05.2018.
- -->
-
-<aura:component description="BoatDetails">
+<aura:component description="BoatDetails" implements="flexipage:availableForAllPageTypes" access="global">
+    <aura:attribute name="boat" type="Boat__c" access="public"/>
+    <aura:attribute name="id" type="Id" access="public"/>
+    <aura:handler event="c:BoatSelected" action="{!c.onBoatSelected}"/>
+    <force:recordData aura:id="service" recordId="{!v.id}" fields="Id, Name, Description__c, Price__c, Length__c, Contact__r.Name, Contact__r.Email, Contact__r.HomePhone,
+            BoatType__r.Name, Picture__c" targetFields="{!v.boat}" recordUpdated="{!c.onRecordUpdated}" mode="VIEW"/>
+    <aura:if isTrue="{!v.boat != undefined}">
+        <lightning:tabset>
+            <lightning:tab label="Details">
+                <c:BoatDetail boat="{!v.boat}"/>
+            </lightning:tab>
+            <lightning:tab label="Reviews">
+            </lightning:tab>
+            <lightning:tab label="Add Review">
+                <c:AddBoatReview boat="{!v.boat}"/>
+            </lightning:tab>
+        </lightning:tabset>
+    </aura:if>
 </aura:component>
