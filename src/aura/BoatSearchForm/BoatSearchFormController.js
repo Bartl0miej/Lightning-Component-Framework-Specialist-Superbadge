@@ -17,6 +17,7 @@
 
     createRecord : function(component, event, helper) {
         let boatType = component.get("v.boatType");
+        console.log('boattypeId = ' + boatType.Id);
         let boatTypesList = component.get("v.boatTypes");
         for (let i = 0; i < boatTypesList.length; i++) {
             if (boatType === boatTypesList[i].Name) {
@@ -36,5 +37,25 @@
            }
         });
         createRecordEvent.fire();
+    },
+
+    onFormSubmit : function(component, event, helper) {
+        let boatType = component.get("v.boatType");
+                console.log('boattypeId = ' + boatType.Id);
+                let boatTypesList = component.get("v.boatTypes");
+                for (let i = 0; i < boatTypesList.length; i++) {
+                    if (boatType === boatTypesList[i].Name) {
+                        boatType = boatTypesList[i].Id;
+                        break;
+                    }
+                }
+                console.log(boatType);
+                if (boatType === "") {
+                    boatType = null;
+                }
+        let sendFormEvent = component.getEvent("formsubmit");
+        sendFormEvent.setParams({"formData" : boatType});
+        console.log('form submit type id: ' + boatType);
+        sendFormEvent.fire();
     }
 })

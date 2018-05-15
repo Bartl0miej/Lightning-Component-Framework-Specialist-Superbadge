@@ -3,6 +3,7 @@
     <aura:attribute name="boatType" type="BoatType__c"/>
     <aura:attribute name="boatTypes" type="List"/>
     <aura:attribute name="createRecordEnabled" type="Boolean" default="false"/>
+    <aura:registerEvent name="formsubmit" type="c:FormSubmit"/>
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
     <lightning:layout horizontalAlign="center">
         <lightning:layoutItem class="slds-m-right_small">
@@ -15,7 +16,7 @@
             </lightning:select>
         </lightning:layoutItem>
         <lightning:layoutItem class="slds-m-right_xx-small">
-            <lightning:button label="Search" variant="brand" onclick="{!c.searchBoats}"/>
+            <lightning:button label="Search" variant="brand" onclick="{!c.onFormSubmit}"/>
         </lightning:layoutItem>
         <aura:if isTrue="{!v.createRecordEnabled}">
             <lightning:layoutItem>
