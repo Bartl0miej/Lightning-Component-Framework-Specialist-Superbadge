@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae5c2135-8b80-4274-b9c5-a85be9024174" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/aura/BoatSearch/BoatSearch.cmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aura/BoatSearch/BoatSearch.cmp-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aura/BoatSearch/BoatSearch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aura/BoatSearchForm/BoatSearchFormController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResults.cmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResults.cmp-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aura/FriendswithBoats/FriendswithBoats.app" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aura/FriendswithBoats/FriendswithBoats.app-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/BoatSearchResults.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/BoatSearchResults.cls-meta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResultsController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResultsHelper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aura/BoatTile/BoatTile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aura/FormSubmit/FormSubmit.evt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aura/FormSubmit/FormSubmit.evt-meta.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lightning Components Superbadge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lightning Components Superbadge.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aura/BoatSearchForm/BoatSearchForm.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/BoatSearchForm/BoatSearchForm.cmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResults.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResults.cmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/BoatTile/BoatTile.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/BoatTile/BoatTile.cmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/BoatSearchResults.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/BoatSearchResults.cls" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,26 +26,52 @@
       <file leaf-file-name="BoatSearchResults.cmp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResults.cmp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="48" lean-forward="true" selection-start-column="48" selection-end-column="48" />
+            <state relative-caret-position="300">
+              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoatSearch.cmp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/BoatSearch/BoatSearch.cmp">
+      <file leaf-file-name="FormSubmit.evt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/aura/FormSubmit/FormSubmit.evt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="BoatSearchResultsController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResultsController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoatSearchResultsHelper.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResultsHelper.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
-              <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoatSearch.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/BoatSearch/BoatSearch.css">
+      <file leaf-file-name="BoatTile.cmp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/BoatTile/BoatTile.cmp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="200">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#lightning:button#0;n#aura:component#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoatTile.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/BoatTile/BoatTile.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -56,17 +79,8 @@
       <file leaf-file-name="BoatSearchForm.cmp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchForm/BoatSearchForm.cmp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoatSearchFormController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchForm/BoatSearchFormController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="48" />
+            <state relative-caret-position="120">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -74,17 +88,17 @@
       <file leaf-file-name="BoatSearchResults.cls" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/BoatSearchResults.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="45" selection-start-column="45" selection-end-column="45" />
+            <state relative-caret-position="220">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FriendswithBoats.app" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/aura/FriendswithBoats/FriendswithBoats.app">
+      <file leaf-file-name="BoatSearchFormController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchForm/BoatSearchFormController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="160">
+              <caret line="8" selection-start-line="8" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -95,11 +109,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Lightning Application" />
-        <option value="Lightning Component" />
-        <option value="Lightning Controller" />
         <option value="Apex Class" />
-        <option value="Apex Metadata" />
+        <option value="Lightning Component" />
         <option value="Lightning Style" />
+        <option value="Lightning Controller" />
+        <option value="Lightning Helper" />
+        <option value="Lightning Component Event" />
+        <option value="Apex Metadata" />
       </list>
     </option>
   </component>
@@ -109,16 +125,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResults.cmp" />
         <option value="$PROJECT_DIR$/src/aura/PickListValues/PickListValues.cmp" />
         <option value="$PROJECT_DIR$/src/aura/PickListValues/PickListValuesController.js" />
         <option value="$PROJECT_DIR$/src/classes/PickListValuesController.cls" />
-        <option value="$PROJECT_DIR$/src/classes/BoatSearchResults.cls" />
         <option value="$PROJECT_DIR$/src/aura/BoatSearchForm/BoatSearchFormController.js" />
-        <option value="$PROJECT_DIR$/src/aura/BoatSearchForm/BoatSearchForm.cmp" />
         <option value="$PROJECT_DIR$/src/aura/BoatSearch/BoatSearch.cmp" />
         <option value="$PROJECT_DIR$/src/aura/BoatSearch/BoatSearch.css" />
         <option value="$PROJECT_DIR$/src/aura/FriendswithBoats/FriendswithBoats.app" />
+        <option value="$PROJECT_DIR$/src/aura/BoatSearchForm/BoatSearchForm.cmp" />
+        <option value="$PROJECT_DIR$/src/classes/BoatSearchResults.cls" />
+        <option value="$PROJECT_DIR$/src/aura/BoatTile/BoatTile.cmp" />
+        <option value="$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResultsController.js" />
+        <option value="$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResultsHelper.js" />
+        <option value="$PROJECT_DIR$/src/aura/BoatTile/BoatTile.css" />
+        <option value="$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResults.cmp" />
+        <option value="$PROJECT_DIR$/src/aura/FormSubmit/FormSubmit.evt" />
       </list>
     </option>
   </component>
@@ -128,7 +149,7 @@
         <entry key="Lightning Components Superbadge">
           <value>
             <ModuleWorkspaceSettings>
-              <option name="moduleContentsLastModified" value="1526372348830" />
+              <option name="moduleContentsLastModified" value="1526384458507" />
             </ModuleWorkspaceSettings>
           </value>
         </entry>
@@ -136,6 +157,13 @@
     </option>
     <option name="projectWorkspaceSettings">
       <ProjectWorkspaceSettings>
+        <option name="anonymousApexSettings">
+          <AnonymousApexSettings>
+            <option name="apexLogLevel" value="FINEST" />
+            <option name="connectionName" value="Lightning Components Superbadge" />
+            <option name="documentText" value="BoatSearchResults.getBoats('');" />
+          </AnonymousApexSettings>
+        </option>
         <option name="connectionWorkspaceSettings">
           <map>
             <entry key="Lightning Components Superbadge">
@@ -144,10 +172,12 @@
                   <option name="buildSuccessDatesBySourceRootRelativePath">
                     <map>
                       <entry key="AURA/BOATSEARCH" value="1526378275292" />
-                      <entry key="AURA/BOATSEARCHFORM" value="1526377817528" />
-                      <entry key="AURA/BOATSEARCHRESULTS" value="1526378271295" />
-                      <entry key="AURA/FRIENDSWITHBOATS" value="1526378266708" />
-                      <entry key="CLASSES/BOATSEARCHRESULTS.CLS" value="1526373390374" />
+                      <entry key="AURA/BOATSEARCHFORM" value="1526380794542" />
+                      <entry key="AURA/BOATSEARCHRESULTS" value="1526384109661" />
+                      <entry key="AURA/BOATTILE" value="1526383761992" />
+                      <entry key="AURA/FORMSUBMIT" value="1526384463325" />
+                      <entry key="AURA/FRIENDSWITHBOATS" value="1526378359920" />
+                      <entry key="CLASSES/BOATSEARCHRESULTS.CLS" value="1526381910899" />
                     </map>
                   </option>
                 </ConnectionWorkspaceSettings>
@@ -158,7 +188,8 @@
         <option name="soqlQuerySettings">
           <SoqlQuerySettings>
             <option name="connectionName" value="Lightning Components Superbadge" />
-            <option name="documentText" value="SELECT Name FROM BoatType__c" />
+            <option name="documentText" value="" />
+            <option name="resultsSplitterProportion" value="0.19622642" />
           </SoqlQuerySettings>
         </option>
       </ProjectWorkspaceSettings>
@@ -219,6 +250,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="aura" type="462c0819:PsiDirectoryNode" />
               <item name="BoatSearchResults" type="edc2aaaf:IlluminatedCloudProjectTreeStructureProvider$BundleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lightning Component Framework Specialist Superbadge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lightning Component Framework Specialist Superbadge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aura" type="462c0819:PsiDirectoryNode" />
+              <item name="BoatTile" type="edc2aaaf:IlluminatedCloudProjectTreeStructureProvider$BundleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lightning Component Framework Specialist Superbadge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lightning Component Framework Specialist Superbadge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aura" type="462c0819:PsiDirectoryNode" />
+              <item name="FormSubmit" type="edc2aaaf:IlluminatedCloudProjectTreeStructureProvider$BundleDirectoryNode" />
             </path>
             <path>
               <item name="Lightning Component Framework Specialist Superbadge" type="b2602c69:ProjectViewProjectNode" />
@@ -315,35 +360,35 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Anonymous Apex" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Event Log" order="8" sideWeight="0.5002667" weight="0.32853332" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="9" visible="true" weight="0.36126223" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
-      <window_info anchor="bottom" id="Problems" />
-      <window_info anchor="bottom" id="SOQL Query" order="7" visible="true" weight="0.32897604" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25546667" />
+      <window_info anchor="bottom" id="Problems" order="0" />
+      <window_info anchor="bottom" id="SOQL Query" order="12" sideWeight="0.49946696" weight="0.3492927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Log Viewer" order="7" />
+      <window_info anchor="bottom" id="Log Viewer" order="13" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -381,31 +426,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchForm/BoatSearchForm.cmp">
+    <entry file="file://$PROJECT_DIR$/src/aura/FriendswithBoats/FriendswithBoats.app">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchForm/BoatSearchFormController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/BoatSearchResults.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResults.cmp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="48" lean-forward="true" selection-start-column="48" selection-end-column="48" />
+        <state relative-caret-position="120">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -416,12 +440,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/FriendswithBoats/FriendswithBoats.app">
+    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchForm/BoatSearchFormController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/BoatSearchResults.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchForm/BoatSearchForm.cmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/BoatTile/BoatTile.cmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#lightning:button#0;n#aura:component#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/BoatTile/BoatTile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResultsHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResultsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResults.cmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/FormSubmit/FormSubmit.evt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

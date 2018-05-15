@@ -15,7 +15,7 @@
             </lightning:select>
         </lightning:layoutItem>
         <lightning:layoutItem class="slds-m-right_xx-small">
-            <lightning:button label="Search" variant="brand"/>
+            <lightning:button label="Search" variant="brand" onclick="{!c.searchBoats}"/>
         </lightning:layoutItem>
         <aura:if isTrue="{!v.createRecordEnabled}">
             <lightning:layoutItem>

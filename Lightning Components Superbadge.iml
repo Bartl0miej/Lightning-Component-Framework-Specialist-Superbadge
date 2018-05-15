@@ -729,6 +729,10 @@
                             <option name="name" value="BoatTile" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="FormSubmit" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="AuraDefinitionBundle" />
