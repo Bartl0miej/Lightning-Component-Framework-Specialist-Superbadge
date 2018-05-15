@@ -23,5 +23,10 @@
 
         //component.get("v.boatTypeId");
         helper.onSearch(component);
+    },
+
+    onBoatSelect : function(component, event, helper) {
+        let passedId = event.getParam('boatId');
+        component.set("v.selectedBoatId", passedId);
     }
 })
