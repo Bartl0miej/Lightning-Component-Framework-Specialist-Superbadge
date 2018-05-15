@@ -9,7 +9,11 @@
     },
 
     onRecordUpdated : function(component, event, helper) {
-
+        let boat = component.get("v.boat");
+        let BoatReviews = component.find("BoatReviews");
+        if (typeof BoatReviews != 'undefined') {
+            BoatReviews.refresh();
+        }
     },
 
     onBoatReviewAdded : function(component, event, helper) {

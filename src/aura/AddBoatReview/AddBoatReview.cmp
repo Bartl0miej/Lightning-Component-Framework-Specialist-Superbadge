@@ -15,7 +15,9 @@
             <label class="slds-form-element__label" for="commentInput">Description</label>
             <lightning:inputRichText value="{!v.boatReview.Comment__c}" disabledCategories="FORMAT_FONT"/>
         </lightning:layoutItem>
-
+        <lightning:layoutItem size="12" padding="around-small">
+            <c:FiveStarRating aura:id="FiveStarRating" value="{!v.boatReview.Rating__c}" readonly="false"/>
+        </lightning:layoutItem>
         <lightning:layoutItem size="12" class="slds-align_absolute-center">
             <lightning:button iconName="utility:save" label="Submit" onclick="{!c.onSave}"/>
         </lightning:layoutItem>

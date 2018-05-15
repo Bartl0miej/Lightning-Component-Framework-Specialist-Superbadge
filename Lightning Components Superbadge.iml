@@ -486,6 +486,10 @@
                             <option name="name" value="BoatSearchResults" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="BoatReviews" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="ApexClass" />
@@ -759,6 +763,10 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="BoatReviews" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="FiveStarRating" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
