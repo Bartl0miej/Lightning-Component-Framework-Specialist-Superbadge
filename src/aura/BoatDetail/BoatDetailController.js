@@ -1,5 +1,5 @@
 ({
-    donInit : function(component, event, helper) {
+    doInit : function(component, event, helper) {
         let avai = $A.get("e.force:navigateToSObject");
         if (avai) {
             component.set("v.showFullDetails", true);
@@ -11,5 +11,5 @@
         let boatId = component.get("v.boat.Id");
         navEvent.setParams({"recordId" : boatId});
         navEvent.fire();
-    }
+    },
 })

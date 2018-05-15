@@ -1,6 +1,23 @@
-<!--
- - Created by BRITENET on 15.05.2018.
- -->
-
 <aura:component description="AddBoatReview">
+    <aura:attribute name="boat" type="Boat__c" access="public"/>
+    <aura:attribute name="boatReview" type="BoatReview__c" access="public"/>
+    <aura:attribute name="boatReviewRecord" type="Object" access="public"/>
+    <aura:attribute name="recordError" type="String" access="private"/>
+    <aura:registerEvent name="BoatReviewAdded" type="c:BoatReviewAdded"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <force:recordData aura:id="service" fields="Id, Name, Comment__c, Boat__c" targetFields="{!v.boatReview}"
+                      targetRecord="{!v.boatReviewRecord}" recordUpdated="{!c.onRecordUpdated}" targetError="{!v.recordError}"/>
+    <lightning:layout multipleRows="true">
+        <lightning:layoutItem size="12" padding="around-small">
+            <lightning:input label="Title" name="title" value="{!v.boatReview.Name}"/>
+        </lightning:layoutItem>
+        <lightning:layoutItem size="12" padding="around-small">
+            <label class="slds-form-element__label" for="commentInput">Description</label>
+            <lightning:inputRichText value="{!v.boatReview.Comment__c}" disabledCategories="FORMAT_FONT"/>
+        </lightning:layoutItem>
+
+        <lightning:layoutItem size="12" class="slds-align_absolute-center">
+            <lightning:button iconName="utility:save" label="Submit" onclick="{!c.onSave}"/>
+        </lightning:layoutItem>
+    </lightning:layout>
 </aura:component>
