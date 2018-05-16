@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae5c2135-8b80-4274-b9c5-a85be9024174" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/aura/Map/Map.design" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aura/PlotMapMarker/PlotMapMarker.evt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aura/PlotMapMarker/PlotMapMarker.evt-meta.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lightning Components Superbadge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lightning Components Superbadge.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aura/BoatTile/BoatTile.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/BoatTile/BoatTile.cmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aura/BoatTile/BoatTileController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/BoatTile/BoatTileController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aura/Map/Map.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/Map/Map.cmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aura/Map/MapController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/Map/MapController.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,29 +18,22 @@
       <file leaf-file-name="BoatTile.cmp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/aura/BoatTile/BoatTile.cmp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+            <state relative-caret-position="140">
+              <caret line="7" column="55" lean-forward="true" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoatTileController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/BoatTile/BoatTileController.js">
+      <file leaf-file-name="BoatTile.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/BoatTile/BoatTile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="589">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapRenderer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/Map/MapRenderer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoatDetails.cmp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BoatDetails.cmp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/aura/BoatDetails/BoatDetails.cmp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
@@ -56,51 +42,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoatSelected.evt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/BoatSelected/BoatSelected.evt">
+      <file leaf-file-name="BoatDetail.cmp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/BoatDetail/BoatDetail.cmp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" selection-start-column="29" selection-end-column="29" />
+            <state relative-caret-position="180">
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/Map/MapController.js">
+      <file leaf-file-name="BoatSearchResults.cmp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResults.cmp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="280">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlotMapMarker.evt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/PlotMapMarker/PlotMapMarker.evt">
+      <file leaf-file-name="BoatSearch.cmp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/aura/BoatSearch/BoatSearch.cmp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+            <state relative-caret-position="140">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Map.design" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/Map/Map.design">
+      <file leaf-file-name="BoatSearchFormController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchForm/BoatSearchFormController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+            <state relative-caret-position="400">
+              <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Map.cmp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aura/Map/Map.cmp">
+      <file leaf-file-name="BoatSearchController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/BoatSearch/BoatSearchController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#aura:component#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#aura:component#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoatDetailsController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aura/BoatDetails/BoatDetailsController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -211,7 +202,7 @@
                     <map>
                       <entry key="AURA/ADDBOATREVIEW" value="1526423255864" />
                       <entry key="AURA/BOATDETAIL" value="1526416309078" />
-                      <entry key="AURA/BOATDETAILS" value="1526425095772" />
+                      <entry key="AURA/BOATDETAILS" value="1526425184042" />
                       <entry key="AURA/BOATREVIEWADDED" value="1526415900000" />
                       <entry key="AURA/BOATREVIEWS" value="1526423511859" />
                       <entry key="AURA/BOATSEARCH" value="1526393563790" />
@@ -223,7 +214,7 @@
                       <entry key="AURA/FIVESTARRATING" value="1526423358954" />
                       <entry key="AURA/FORMSUBMIT" value="1526389652671" />
                       <entry key="AURA/FRIENDSWITHBOATS" value="1526389646484" />
-                      <entry key="AURA/MAP" value="1526425094236" />
+                      <entry key="AURA/MAP" value="1526462177667" />
                       <entry key="AURA/PLOTMAPMARKER" value="1526424704000" />
                       <entry key="CLASSES/BOATREVIEWS.CLS" value="1526420161874" />
                       <entry key="CLASSES/BOATSEARCHRESULTS.CLS" value="1526389651620" />
@@ -238,17 +229,17 @@
           <SoqlQuerySettings>
             <option name="connectionName" value="Lightning Components Superbadge" />
             <option name="documentText" value="" />
-            <option name="resultsSplitterProportion" value="0.19622642" />
+            <option name="resultsSplitterProportion" value="0.41269842" />
           </SoqlQuerySettings>
         </option>
       </ProjectWorkspaceSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="1" />
@@ -475,7 +466,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -492,9 +483,9 @@
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28685015" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3147651" />
       <window_info anchor="bottom" id="Problems" order="0" />
-      <window_info anchor="bottom" id="SOQL Query" order="12" sideWeight="0.49946696" visible="true" weight="0.2767154" />
+      <window_info anchor="bottom" id="SOQL Query" order="12" sideWeight="0.49946696" visible="true" weight="0.34900284" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Log Viewer" order="13" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -654,13 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearch/BoatSearchController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/aura/FormSubmit/FormSubmit.evt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -675,45 +659,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResultsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearch/BoatSearch.cmp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="104" selection-start-column="41" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/aura/BoatDetail/BoatDetail.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/BoatTile/BoatTile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchForm/BoatSearchForm.cmp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResults.cmp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -726,27 +675,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aura/BoatReviewAdded/BoatReviewAdded.evt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/AddBoatReview/AddBoatReviewController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/BoatDetail/BoatDetail.cmp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchForm/BoatSearchFormController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
-          <caret line="58" column="24" lean-forward="true" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aura/BoatReviews/BoatReviewsHelper.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -769,20 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/BoatDetail/BoatDetailController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/BoatDetails/BoatDetailsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/aura/AddBoatReview/AddBoatReview.cmp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -797,13 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/FiveStarRating/FiveStarRatingController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/aura/BoatReviews/BoatReviews.cmp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -814,32 +721,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/BoatReviews/BoatReviewsController.js">
+    <entry file="file://$PROJECT_DIR$/src/aura/Map/MapRenderer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/Map/Map.design">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/PlotMapMarker/PlotMapMarker.evt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/BoatTile/BoatTile.cmp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-        </state>
+        <state relative-caret-position="-16" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aura/BoatSelected/BoatSelected.evt">
@@ -856,14 +740,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/Map/Map.design">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchForm/BoatSearchForm.cmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/PlotMapMarker/PlotMapMarker.evt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/aura/Map/Map.cmp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#aura:component#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#aura:component#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/FiveStarRating/FiveStarRatingController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -874,15 +782,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/Map/MapRenderer.js">
+    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResultsController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16" />
+        <state relative-caret-position="580">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/AddBoatReview/AddBoatReviewController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/BoatDetail/BoatDetailController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/BoatDetails/BoatDetailsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/BoatReviews/BoatReviewsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearch/BoatSearchController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchForm/BoatSearchFormController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/BoatTile/BoatTile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/BoatTile/BoatTile.cmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="55" lean-forward="true" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aura/BoatDetails/BoatDetails.cmp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/BoatDetail/BoatDetail.cmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearchResults/BoatSearchResults.cmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aura/BoatSearch/BoatSearch.cmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
